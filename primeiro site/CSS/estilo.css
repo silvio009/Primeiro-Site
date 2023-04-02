@@ -1,0 +1,117 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family:Georgia;
+}
+
+    /* cabeçalho*/
+header{
+    background-color:blueviolet;
+    color: black;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 2px solid black;
+    border-top: 3px solid black;
+    border-radius: 5px;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+  /*grid produto*/
+.container{
+    background-color: #f3ecec;
+    min-height: 60vh;
+    padding: 50px;
+}
+.products-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.card{
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 15px;
+
+}
+.product-image{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    border-bottom: 1.5px solid purple;
+    border-top: 1.5px solid purple;
+    border-left: 1.5px solid purple;
+    border-right: 1.5px solid purple;
+
+}
+#img-1{
+    background-image: url("../img/leon.webp");
+}
+#img-2{
+    background-image: url("../img/elder.webp");
+}
+#img-3{
+    background-image: url("../img/fifa.webp");
+}
+#img-4{
+    background-image: url("../img/god.webp");
+}
+#img-5{
+    background-image: url("../img/morales.webp");
+}
+#img-6{
+    background-image: url("../img/ellie.webp");
+}
+h3{
+    margin-bottom: 10px;
+    color: purple;
+    border-left: 5px solid black;
+    padding-left: 7px;
+    font-size: 24px;
+
+}
+.card p{
+   margin-bottom: 10 px; 
+
+}
+.bold{
+    font-weight: bold;
+}
+.botao {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: blueviolet;
+    color: black;
+    padding: 15px;
+    border-radius: 5px;
+    transition: .5s;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+}
+.botao:hover{
+    background-color: purple;
+}
+
+
+
+  /*footer*/
+footer{
+    background-color:blueviolet;
+    color: black;
+    padding: 80px;
+    text-align: center;
+    border-bottom: 2px solid black;
+    border-top: 3.5px solid black;
+    border-radius: 5px;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+
+}
